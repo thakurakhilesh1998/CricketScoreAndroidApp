@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cricket Score Keeper</string>
+    <string-array name="teams">
+        <item>-Select Team-</item>
+        <item>Team A</item>
+        <item>Team B</item>
+    </string-array>
+
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="extra">wd/nb</string>
+    <string name="out">OUT</string>
+    <string name="select">Select Score</string>
+</resources>
