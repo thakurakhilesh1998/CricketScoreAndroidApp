@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="No Ball Bowled Yet"
+                android:text="@string/nothing"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -97,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="No ball Bowled yet"
+                android:text="@string/nothing"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
         </LinearLayout>

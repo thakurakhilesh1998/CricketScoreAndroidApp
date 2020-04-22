@@ -137,8 +137,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         outB=0;
         ballsA=0;
         getBallsB=0;
-        tvBallsA.setText("No ball bowled yet");
-        tvBallsB.setText("No Ball bowled yet");
+        tvBallsA.setText(R.string.nothing);
+        tvBallsB.setText(R.string.nothing);
         tvScoreA.setText("No score");
         tvScoreB.setText("No score");
     }

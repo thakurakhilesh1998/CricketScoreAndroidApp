@@ -17,4 +17,5 @@
     <string name="out">OUT</string>
     <string name="select">Select Score</string>
     <string name="reset">Reset Score</string>
+    <string name="nothing">No Ball bowled</string>
 </resources>
