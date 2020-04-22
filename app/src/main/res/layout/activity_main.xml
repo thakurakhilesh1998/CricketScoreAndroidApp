@@ -156,43 +156,23 @@
 
             <Button
                 android:id="@+id/btn0"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
                 android:text="@string/zero"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
+                style="@style/buttonsScore"
                 ></Button>
             <Button
                 android:id="@+id/btn1"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
                 android:text="@string/one"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
+                style="@style/buttonsScore"
                 ></Button>
             <Button
                 android:id="@+id/btn2"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
+                style="@style/buttonsScore"
                 android:text="@string/two"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
             <Button
                 android:id="@+id/btn3"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
+                style="@style/buttonsScore"
                 android:text="@string/three"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
         </LinearLayout>
 
@@ -204,43 +184,23 @@
 
             <Button
                 android:id="@+id/btn4"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
+                style="@style/buttonsScore"
                 android:text="@string/four"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
             <Button
                 android:id="@+id/btn5"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
+                style="@style/buttonsScore"
                 android:text="@string/five"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
             <Button
                 android:id="@+id/btn6"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
+                style="@style/buttonsScore"
                 android:text="@string/six"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
             <Button
                 android:id="@+id/btne"
-                android:layout_width="0dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"
+                style="@style/buttonsScore"
                 android:text="@string/extra"
-                android:layout_margin="8dp"
-                android:textColor="@color/white"
-                android:background="@color/foreground"
                 ></Button>
         </LinearLayout>
         <LinearLayout
