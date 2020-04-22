@@ -16,4 +16,5 @@
     <string name="extra">wd/nb</string>
     <string name="out">OUT</string>
     <string name="select">Select Score</string>
+    <string name="reset">Reset Score</string>
 </resources>

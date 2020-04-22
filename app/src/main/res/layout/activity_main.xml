@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView
+    android:id="@+id/parentLayout"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="fill_parent"
+    android:paddingBottom="16dp"
     android:background="@color/background"
     >
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -49,7 +51,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="200/5"
+                android:text="No Score"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
 
@@ -58,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="200 balls"
+                android:text="No Ball Bowled Yet"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -86,7 +88,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="200/5"
+                android:text="No Score"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
 
@@ -95,7 +97,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="16dp"
-                android:text="200 balls"
+                android:text="No ball Bowled yet"
                 android:textAppearance="@android:style/TextAppearance.Medium"
                 android:textColor="@color/white" />
         </LinearLayout>
@@ -256,6 +258,16 @@
           android:textColor="@color/white"
           />
         </LinearLayout>
+
     </LinearLayout>
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:text="@string/reset"
+        android:background="@color/foreground"
+        android:textColor="@color/white"
+        />
 </LinearLayout>
 </ScrollView>
